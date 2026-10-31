@@ -1,0 +1,10 @@
+{
+  "name": "pi-verification",
+  "version": "0.1.0",
+  "description": "Verification-first agent skill: prove code works before claiming it does. Language-agnostic test runner, false-signal checklist and playbook template, for any language or engine.",
+  "keywords": ["pi-package", "agent-skills", "verification", "testing", "benchmark"],
+  "license": "MIT",
+  "pi": { "skills": ["./skills/verification"] },
+  "files": ["skills/", "README.md", "LICENSE"],
+  "scripts": { "test": "bash scripts/self_test.sh" }
+}
